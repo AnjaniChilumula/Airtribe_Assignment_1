@@ -1,0 +1,42 @@
+PS C:\Users\Bunty\OneDrive\Documents\Airtribe\Projects\library_manager> python main.py
+===== LIBRARY MANAGEMENT SYSTEM =====
+
+1. Borrowing Items
+Alice borrowed: Book: Python 101 by A. Rao (ID 1)
+Alice borrowed: Magazine: Tech Today, Issue 15 (ID 2)
+
+2. Already Borrowed Error
+Could not borrow: 'Python 101' is already borrowed.
+
+3. Borrowing Limit Error
+Bob borrowed: DVD: Python Tutorials, Duration 120 minutes (ID 3)
+Could not borrow: 'Tech Today' is already borrowed.
+
+4. Invalid Return Error
+Could not return: 'Python 101' was not borrowed by Bob.
+
+5. Late Fee Calculation
+Book: Python 101 by A. Rao (ID 1) -> Late fee for 3 days: Rs 6
+Magazine: Tech Today, Issue 15 (ID 2) -> Late fee for 3 days: Rs 3
+DVD: Python Tutorials, Duration 120 minutes (ID 3) -> Late fee for 3 days: Rs 15
+
+6. Returning Items
+Alice returned Python 101.
+Late fee: Rs 6
+Alice returned Tech Today.
+Late fee: Rs 3
+
+7. Member Borrowed List
+Alice's borrowed items: []
+Bob's borrowed items: ['Python Tutorials']
+
+8. Encapsulation
+Private attribute cannot be accessed: 'Book' object has no attribute '__available'
+Book availability: True
+
+9. Total Library Items
+Total items created: 3
+
+10. Abstraction
+Cannot create LibraryItem directly: Can't instantiate abstract class LibraryItem with abstract method late_fee
+PS C:\Users\Bunty\OneDrive\Documents\Airtribe\Projects\library_manager> 
